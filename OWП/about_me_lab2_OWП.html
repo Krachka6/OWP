@@ -1,0 +1,408 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang=ru>
+<head>
+<title>Лабораторная работа №2</title>
+</head>
+<style>
+.G_body{
+padding-top:60px;
+background: rgba(237, 200, 187, 0.8);
+width: 100%; height: 100%;
+}
+.bg{
+position: absolute;
+z-index: -1;
+width: 99%; height: 105%;
+background-image: url(back.jpg);
+opacity: 0.8;
+}
+.C_block{
+width: 80%; height: 80%;
+background-color:#F9EEEB;
+margin: 0 auto;
+}
+#M_TEXT{
+background-color:#FFFFFF;
+width: 470px;
+height: 300px;
+margin-left: 120px;
+position: absolute;
+border: 1px solid #EDE3E0;
+padding-left:26px;
+font-family: "OpenSans"; 
+}
+#logo{
+transform: scale(0.1);
+position: absolute;
+margin-top:-464px;
+margin-left:-999px;
+background-color:#F5E7E5;
+border:90px solid #F5E7E5;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+}
+.Word{
+background-color: #E6E6E6;
+display: none;
+color: black;
+padding-top:100px;
+padding-bottom:100px;
+}
+@font-face {
+font-family: "OpenSans"; 
+src: url("OpenSans-VariableFont_wdth,wght.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+.list{
+background-color: white;
+width: 754px;   
+margin: 0 auto;
+margin-bottom:20px;
+height: 950px; 
+border:1px solid #DECECE;
+padding-right:5px;
+box-sizing: border-box;
+}
+.but{
+width: 180px;
+height: 80px;
+border-radius: 70px 5% 70px 5%;
+border: 8px solid #E8B0B7;
+position: absolute;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.4);
+}
+button {
+float: right;
+}
+#s1{
+font-size:1.3em;
+}
+#l2{
+box-sizing: border-box;
+padding-left:90px;
+}
+#l3{
+box-sizing: border-box;
+padding-left:90px;
+}
+#img1{
+margin-top:-25px;
+transform: scale(0.7);
+}
+#img2{
+margin-top:-65px;
+transform: scale(0.6);
+}
+#img3{
+transform: scale(0.7);
+}
+#d1{
+flex-direction: column;
+float:left;
+width: 330px;
+height: 200px;
+margin-left:40px;
+}
+#d2{
+flex-direction: column;
+float:left;
+width: 130px;
+height: 200px;
+margin-top:100px;
+}
+#d3{
+flex-direction: column;
+float:left;
+width: auto;
+height: 200px;
+margin-top:100px;
+margin-bottom:50px;
+}
+#b1{
+margin-top:364px;
+margin-left: -80px;
+background-color: #D5D9D8;
+}
+#b2{
+margin-top:364px;
+margin-left: 120px;
+background-color: #ECF0EF;
+}
+#b3{
+margin-top:364px;
+margin-left: 320px;
+background-color: #ECF0EF;
+}
+#b4{
+margin-top:364px;
+margin-left: 520px;
+background-color: #ECF0EF;
+}
+#b5{
+margin-top:364px;
+margin-left: 720px;
+background-color: #ECF0EF;
+}
+#b6{
+margin-top:364px;
+margin-left: 920px;
+background-color: #ECF0EF;
+}
+#iconic1{
+margin-top:-30px;
+margin-left: 850px;
+background-color: #D2D2D2;
+position: absolute;
+opacity: 0.6;
+}
+#iconic2{
+margin-top:294px;
+margin-left: 648px;
+background-color: #D2D2D2;
+position: absolute;
+opacity: 0.6;
+}
+#Im{
+transform: scale(0.3);
+position: absolute;
+margin-top:-494px;
+margin-left: 385px;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.4);
+}
+#pink{
+transform: scale(0.3);
+position: absolute;
+margin-top:80px;
+margin-left: -105px;
+opacity: 0.6;
+}
+#name{
+position: absolute;
+margin-top: -25px;
+margin-left: 86px;
+width: 250px;
+height: 55px;
+background-color:#F5E7E5;
+box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+.circ{
+transform: scale(0.12);
+flex-direction: column;
+float:left;
+width: 330px;
+height: 200px;
+margin-left:30px;
+margin-top:-104px;
+}
+
+#about{
+display: block;
+}
+#university{
+display: none;
+}
+#food{
+display: none;
+}
+#plans{
+display: none;
+}
+#contacts{
+display: none;
+}
+</style>
+<body><div class="G_head"></div>
+
+<div class="bg"></div>
+<div class="G_body">
+<div class="C_block"><img id="logo" src="logo_NGTU.png"><br/><br/><br/><br/><br/>
+
+<div id="M_TEXT">
+
+<div id="about"><div id="name"><h3><center>Новикова Алёна Игоревна</center></h3></div>
+<br/><br/><br/>
+Я - будущий веб-дизайнер и специалист своего дела.<br/>
+Также просто хорошая, скромная и ответственная девушка. <br/><br/>
+До поступления в университет окончила Гимназию №12 в том же городе.<br/><br/>
+Буду рада помочь кому-либо с дизайном сайта или фотошопом/редактированием цифровых фотографий.<br/>
+<br/>
+Если Вы хотите побольше узнать обо мне, your welcome!
+</div>
+
+
+<div id="university"><br/><br/>
+Учусь в Новосибирском Государственном Техническом Университете на третьем курсе бакалавриата.<br/>
+Мой факультет - прикладная математика и информатика, группа ПМИ-11, начала своё обучение в 2021-м году.<br/>
+Планирую окончить бакалавриат и устроиться на хорошую работу и получать деньги и удовольствие.<br/><br/>
+Обожаю познавать что-либо новое, особенно со своей малой группой знакомых из группы.<br/>
+</div>
+
+
+<div id="food"><br/>
+Я люблю много чего делать, но когда появляется свободное время, то я могу:
+<ul type="circle">
+<li>Поспать</li>
+<li>Почитать книги</li>
+<li>Программировать</li>
+<li>Поиграть в любимые игры</li>
+<li>Писать рассказы</li>
+</ul><br/>
+Сон - как отдельное хобби, так как мои сны очень реалистичны, их можно использовать как сюжет для рассказа. 
+</div>
+
+
+<div id="plans"><br/><br/>
+В ближайшие года 3 планируется окончить университет и найти работу по душе, чтобы было время и на себя, и на семью, и на любимые дела. <br/>
+В планах также обустроить квартиру по своему вкусу и жить счастливо с возможными путешествиями по желанию партнера.<br/><br/>
+Последующее будущее слишком изменчиво, чтобы его планировать.
+</div>
+
+
+<div id="contacts"><br/>
+Меня можно найти в таких социальных сетях, как:
+<ul type="circle">
+<li><a href="https://vk.com/krachka6">Вконтакте</a></li>
+<li>Telegram (@Krachka6)</li>
+<li>Discord  (Krachka)</li>
+</ul>
+<br/>
+А также Вы можете воспользоваться:
+<ul type="circle">
+<li>Почтой: a.novikova.2021@stud.nstu.ru</li>
+<li>Доп.почтой: vip.alena.novikova@mail.ru</li>
+<li>Телефоном: * *** *** ****</li>
+</ul></div>
+
+</div>
+<div id="pink"><img src="pink.png"></div>
+<div id="Im"><img src="me.jpg"></div><div id="iconic1"> . ︴◈. ◈. ◈. ◈. ◈. ︴</div><div id="iconic2"> . ︴◈. ◈. ◈. ◈. ◈. ︴</div>
+<input type="button" class="but" id="b1" value="Обо мне" onmouseup="show_me1()" >
+<input type="button" class="but" id="b2" value="Университет" onmouseup="show_me2()">
+<input type="button" class="but" id="b3" value="Хобби" onmouseup="show_me3()" onclick="color(_this)">
+<input type="button" class="but" id="b4" value="Планы на будущее" onmouseup="show_me4()">
+<input type="button" class="but" id="b5" value="Отчёт" onclick="change_color()" onmouseup="show_me5()">
+<input type="button" class="but" id="b6" value="Контакты" onmouseup="show_me6()"></div>
+
+</div>
+<div class="circ"><img src="ьи.png"></div><div class="circ"><img src="ьи.png"></div><div class="circ"><img src="ьи.png"></div>
+<div class="Word" id="Word_id">
+<div class="list"> <br/><br/><center><section id="s1">Министерство науки и высшего образования<br/> Российской Федерации</section><br/>
+<section id="s2">Федеральное государственное бюджетное<br/> образовательное учреждение высшего образования</section><br/>
+<section id="s3">"НОВОСИБИРСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ"</section><br/>
+<img id="img1" src="NGTU_RED.png"><br/>
+<img id="img2" src="NGTU_GREEN.png"><br/>
+Кафедра прикладной математики<br/><br/>
+Лабораторная работа №2<br/>
+по дисциплине "Основы web-программирования"</center><br/>
+
+<div id="d1"><img id="img3" src="NGTU_MAIN.png"></div>
+<div id="d2">
+Факультет: <br/>
+Группа: <br/>
+Студент: <br/>
+Преподаватель:<br/>
+</div>
+<div id="d3">
+ПМИ<br/>
+ПМИ-11<br/>
+Новикова Алёна Игоревна<br/>
+Цыгулин Алексей Александрович<br/>
+</div>
+<center>Новосибирск<br/>
+2023</center>
+</div>
+
+<div class="list" id="l2"> <br/>
+<h3>1. Цели и задачи</h3> 
+<b>Практическое задание:</b> верстка<br/>
+<b>Цель:</b> познакомиться со структурой HTML-документа, создать страничку со своей презентацией, проявить творческий подход.<br/>
+<br/><br/>
+<h3>2. Процесс работы</h3>
+Было выполнено задание о структуре и особенностях HTML-документов: <br/>
+<img id="img3" src="photo1.jpg" style="margin-left:-150px; margin-top:-120px;">
+
+</div>
+
+<div class="list" id="l3"><br/><br/>Также была создана страница "О себе", дабы попрактиковаться в пользовании HTML и CSS (+ был применён JavaScript в виде косметических дополнений). <br/><br/>
+Как дополнение к практике написания страницы "О себе" был реализован отчёт по проведённой работе в той же среде.<br/><br/><br/>
+<h3>3. Вывод</h3>
+Была проведена кропотливая работа по самоанализу и поиску стилей для элементов страницы о себе. Всё было найдено и реализовано так, как считалось нужным. </div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+<script>
+function show_me5()
+{
+	let who = document.getElementById("Word_id").style.display;
+		if (who == "block")
+		{
+		document.getElementById("Word_id").style.display = "none";
+		document.getElementById("b5").style.backgroundColor = "#ECF0EF";
+		}
+		else
+		{
+		document.getElementById("Word_id").style.display = "block";
+		document.getElementById("b5").style.backgroundColor = "#D5D9D8";
+		}
+};
+
+
+function color(_this) {
+  _this.style.backgroundColor = "red";
+}
+
+function show_me1()
+{
+	document.getElementById("about").style.display = "block";
+	document.getElementById("b1").style.backgroundColor = "#D5D9D8";	
+	document.getElementById("b2").style.backgroundColor = "#ECF0EF";		document.getElementById("university").style.display = "none";
+	document.getElementById("b3").style.backgroundColor = "#ECF0EF";		document.getElementById("food").style.display = "none";
+	document.getElementById("b4").style.backgroundColor = "#ECF0EF";		document.getElementById("plans").style.display = "none";
+	document.getElementById("b6").style.backgroundColor = "#ECF0EF";		document.getElementById("contacts").style.display = "none";
+};
+function show_me2()
+{
+	document.getElementById("university").style.display = "block";
+	document.getElementById("b2").style.backgroundColor = "#D5D9D8";	
+	document.getElementById("b1").style.backgroundColor = "#ECF0EF";		document.getElementById("about").style.display = "none";
+	document.getElementById("b3").style.backgroundColor = "#ECF0EF";		document.getElementById("food").style.display = "none";
+	document.getElementById("b4").style.backgroundColor = "#ECF0EF";		document.getElementById("plans").style.display = "none";
+	document.getElementById("b6").style.backgroundColor = "#ECF0EF";		document.getElementById("contacts").style.display = "none";
+};
+function show_me3()
+{
+	document.getElementById("food").style.display = "block";
+	document.getElementById("b3").style.backgroundColor = "#D5D9D8";	
+	document.getElementById("b1").style.backgroundColor = "#ECF0EF";		document.getElementById("about").style.display = "none";
+	document.getElementById("b2").style.backgroundColor = "#ECF0EF";		document.getElementById("university").style.display = "none";
+	document.getElementById("b4").style.backgroundColor = "#ECF0EF";		document.getElementById("plans").style.display = "none";
+	document.getElementById("b6").style.backgroundColor = "#ECF0EF";		document.getElementById("contacts").style.display = "none";
+};
+function show_me4()
+{
+	document.getElementById("plans").style.display = "block";
+	document.getElementById("b4").style.backgroundColor = "#D5D9D8";	
+	document.getElementById("b1").style.backgroundColor = "#ECF0EF";		document.getElementById("about").style.display = "none";
+	document.getElementById("b3").style.backgroundColor = "#ECF0EF";		document.getElementById("food").style.display = "none";
+	document.getElementById("b2").style.backgroundColor = "#ECF0EF";		document.getElementById("university").style.display = "none";
+	document.getElementById("b6").style.backgroundColor = "#ECF0EF";		document.getElementById("contacts").style.display = "none";
+};
+function show_me6()
+{
+	document.getElementById("contacts").style.display = "block";
+	document.getElementById("b6").style.backgroundColor = "#D5D9D8";	
+	document.getElementById("b1").style.backgroundColor = "#ECF0EF";		document.getElementById("about").style.display = "none";
+	document.getElementById("b3").style.backgroundColor = "#ECF0EF";		document.getElementById("food").style.display = "none";
+	document.getElementById("b4").style.backgroundColor = "#ECF0EF";		document.getElementById("plans").style.display = "none";
+	document.getElementById("b2").style.backgroundColor = "#ECF0EF";		document.getElementById("university").style.display = "none";
+};
+
+
+
+</script>
